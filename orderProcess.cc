@@ -56,9 +56,9 @@ if(OrderQueue.empty()){
 int main(){
 OrderProcessingSystem ops;
 
-ops.placeOrder("Vikram", "murga chawal");
-ops.placeOrder("Vijay","daal bhaat bhujia");
-ops.placeOrder("SM", "saag bhaat");
+ops.placeOrder("Vikram", "potato");
+ops.placeOrder("Vijay","Rice");
+ops.placeOrder("SM", "bread");
 
 ops.displayPendingOrder();
 
